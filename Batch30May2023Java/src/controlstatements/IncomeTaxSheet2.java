@@ -33,6 +33,6 @@ public class IncomeTaxSheet2 {
 	public static void main(String[] args) {
 		
 		IncomeTaxSheet2 obj = new IncomeTaxSheet2();
-		obj.incomeTaxCalculator(550000);
+		obj.incomeTaxCalculator(1050000);
 	}
 }
