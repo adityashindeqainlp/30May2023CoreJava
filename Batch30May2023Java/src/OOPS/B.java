@@ -5,8 +5,8 @@ package OOPS;
  **/
 public class B extends A {
 
-	public static int a1= 1;
-	public int  b1= 2;
+	public static int a= 1;
+	public int  b= 2;
 
 	public static void m3() {
 
@@ -36,26 +36,26 @@ public class B extends A {
 	
 	public static void main(String[] args) {
 
-//		// Invoke Parent Class Static method in Child's of main
-//		m1();
-//
-//		// Invoke Parent Class Non Static method in Child's of main
-//		B obj = new B();
-//		obj.m2();
-//
-//		A obj1 = new B();
-//		obj1.m2();
-//
-//		A obj2 = new A();
-//		obj2.m2();
-//
-//		System.out.println();
-//
-//		// Invoking Parent Class Static Variable in Child's main method
-//		System.out.println(a);
-//
-//		// Invoking Parent Class Non Static Variable in Child's main method
-//		System.out.println(obj.b);
+		// Invoke Parent Class Static method in Child's of main
+		m1();
+
+		// Invoke Parent Class Non Static method in Child's of main
+		B obj = new B();
+		obj.m2();
+
+		A obj1 = new B();
+		obj1.m2();
+
+		A obj2 = new A();
+		obj2.m2();
+
+		System.out.println();
+
+		// Invoking Parent Class Static Variable in Child's main method
+		System.out.println(a);
+
+		// Invoking Parent Class Non Static Variable in Child's main method
+		System.out.println(obj.b);
 		
 		
 		new B();
