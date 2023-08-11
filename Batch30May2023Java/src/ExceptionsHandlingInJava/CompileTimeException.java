@@ -8,7 +8,7 @@ import java.io.IOException;
  **/
 public class CompileTimeException {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException  {
 		// TODO Auto-generated method stub
 
 		System.out.println("1");
