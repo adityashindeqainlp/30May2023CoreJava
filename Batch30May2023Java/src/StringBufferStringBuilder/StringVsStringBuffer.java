@@ -27,37 +27,29 @@ public class StringVsStringBuffer {
 
 			String b = a.concat(" & Jerry");
 		}
-		
-		System.out.println("Time Taken By String :  "+(System.currentTimeMillis()- startTime)+" ms ");
 
-		
-		
+		System.out.println("Time Taken By String :  " + (System.currentTimeMillis() - startTime) + " ms ");
+
 		StringBuffer sb2 = new StringBuffer("Tom");
 		startTime = System.currentTimeMillis();
-		
+
 		for (int i = 0; i <= 100000; i++) {
 
 			StringBuffer c = sb2.append(" & Jerry");
 		}
-		
-		System.out.println("Time Taken By StringBuffer :  "+(System.currentTimeMillis()- startTime)+" ms ");
 
-		
-		
+		System.out.println("Time Taken By StringBuffer :  " + (System.currentTimeMillis() - startTime) + " ms ");
+
 		StringBuilder sbd = new StringBuilder("Tom");
 		startTime = System.currentTimeMillis();
-		
+
 		for (int i = 0; i <= 100000; i++) {
 
 			StringBuffer c = sb2.append(" & Jerry");
 		}
-		
-		System.out.println("Time Taken By StringBuilder :  "+(System.currentTimeMillis()- startTime)+" ms ");
 
-		
-		
-		
-		
+		System.out.println("Time Taken By StringBuilder :  " + (System.currentTimeMillis() - startTime) + " ms ");
+
 	}
 
 }
